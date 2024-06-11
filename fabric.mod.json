@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "wurst",
+  "version": "v7.42-MC1.20.1",
+  "name": "Narcole Wurst Client",
+  "description": "SUPER NARCOLE IS WURST!",
+  "authors": [
+    "Real Owner Alexander01998 This Version Edited By Powerisokay AKA Human & AKA CODER_SOFT"
+  ],
+  "contact": {
+    "homepage": "https://www.wurstclient.net/?utm_source=Wurst+Client&utm_medium=ModMenu&utm_content=Website&utm_campaign=ModMenu",
+    "issues": "https://www.wurstclient.net/wurst7/issues/",
+    "sources": "https://www.wurstclient.net/wurst7/sources/",
+    "narcoleEditionByHuman": "https://github.com/Coder-soft/Wurst_by_me"
+  },
+  "license": "GPL-3.0-or-later",
+  "icon": "assets/wurst/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.wurstclient.WurstInitializer"
+    ]
+  },
+  "mixins": [
+    "wurst.mixins.json"
+  ],
+  "accessWidener": "wurst.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.15.9",
+    "fabric-api": ">=0.91.1",
+    "minecraft": "~1.20-beta.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "mo_glass": "*"
+  },
+  "breaks": {
+    "wi_zoom": "*",
+    "wi-zoom": "*",
+    "vulkanmod": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Wiki": "https://wurst.wiki/?utm_source=Wurst+Client&utm_medium=ModMenu&utm_content=Wiki",
+        "Forum": "https://wurstforum.net/?utm_source=Wurst+Client&utm_medium=ModMenu&utm_content=Forum",
+        "Donate": "https://www.wurstclient.net/donate/?utm_source=Wurst+Client&utm_medium=ModMenu&utm_content=Donate",
+        "narcolehackpage": "https://github.com/Coder-soft/Wurst_by_me"
+      }
+    }
+  }
+}
