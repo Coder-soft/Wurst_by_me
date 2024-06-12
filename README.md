@@ -6,8 +6,4 @@
 
 
 
-Install The jar install Fabric API 
-
-
-
-Put them into mods folder and run your game
+Download All Jar Files Select Fabric 1.20.1 in your launcher and then run it after that go to .minecraft folder then go to mods put the mods restart you minecraft  
